@@ -1,0 +1,44 @@
+
+ .carousel-cell {
+    width: 50%;
+    height: 14rem;
+    object-fit: cover;
+    /* border: 2px solid red; */
+    /* background-color: lightyellow; */
+    /* margin: 0 3rem; */
+    padding-left:.3rem;
+    font-size: 2rem;
+  }
+
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+
+  }
+  .carousel{
+    border: 3px solid red;
+  }
+  img{
+    /* object-fit: contain; */
+    width: 100vh;
+  }
+  
+  
+  
+
+  @media (max-width:280px){
+    .carousel-cell{
+        width: 100%;
+        font-size: 2rem;
+      }
+    
+        .carousel-cell{
+          width: 100%;
+          font-size: 2rem;
+        }
+  }
+  @media (max-width:1577px){
+    img{
+      width: 100%;
+    }
+  }
